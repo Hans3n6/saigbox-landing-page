@@ -18,6 +18,11 @@ const dmSans = DM_Sans({
 export const metadata = {
   title: 'SAIGBOX - The Future of Wise Email Management',
   description: 'Transform your email experience with AI-powered intelligent email management. Smart prioritization, automated responses, and enhanced security.',
+  icons: {
+    icon: '/favicon.svg',
+    shortcut: '/favicon.svg',
+    apple: '/favicon.svg',
+  },
 }
 
 export default function RootLayout({ children }) {

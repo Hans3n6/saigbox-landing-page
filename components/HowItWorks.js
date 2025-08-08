@@ -32,7 +32,7 @@ export function HowItWorks() {
           <div className="space-y-12">
             {steps.map((step, stepIdx) => (
               <div key={step.id} className="relative flex gap-x-6">
-                <div className="flex h-16 w-16 flex-none items-center justify-center rounded-full bg-saig-green-600 text-white">
+                <div className="flex h-16 w-16 flex-none items-center justify-center rounded-full bg-saig-green-400 text-white">
                   <span className="text-xl font-bold">{step.id}</span>
                 </div>
                 <div className="flex-auto">

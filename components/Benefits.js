@@ -7,7 +7,7 @@ const benefits = [
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
       </svg>
     ),
-    gradient: 'from-saig-green-500 to-saig-green-600',
+    gradient: 'from-saig-green-400 to-saig-green-500',
   },
   {
     title: 'Save Hours Every Week',
@@ -61,7 +61,7 @@ export function Benefits() {
                 className="relative group"
               >
                 <div className="absolute -inset-0.5 bg-gradient-to-r opacity-20 group-hover:opacity-30 blur transition duration-200 rounded-2xl ${benefit.gradient}"></div>
-                <div className="relative bg-saig-dark-800 p-8 rounded-2xl border border-saig-dark-700 hover:border-saig-green-600/50 transition-colors">
+                <div className="relative bg-saig-dark-800 p-8 rounded-2xl border border-saig-dark-700 hover:border-saig-green-400/50 transition-colors">
                   <div className={`inline-flex p-3 rounded-lg bg-gradient-to-r ${benefit.gradient} text-white mb-5`}>
                     {benefit.icon}
                   </div>

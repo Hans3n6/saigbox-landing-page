@@ -8,18 +8,18 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        // SAIGBOX brand colors based on the screenshot
+        // SAIGBOX brand colors matching the main app
         'saig-green': {
-          50: '#e6f7e6',
-          100: '#ccefcc',
-          200: '#99df99',
-          300: '#66cf66',
-          400: '#33bf33',
-          500: '#00af00', // Main brand green
-          600: '#008c00',
-          700: '#006900',
-          800: '#004600',
-          900: '#002300',
+          50: '#f0f7f0',
+          100: '#d9efd9',
+          200: '#b3dfb3',
+          300: '#8dce8d',
+          400: '#7fc97f', // Primary color from main app
+          500: '#6fb56f',
+          600: '#5fa15f',
+          700: '#4f8d4f',
+          800: '#3f793f',
+          900: '#2f652f',
         },
         'saig-dark': {
           50: '#f7f7f8',

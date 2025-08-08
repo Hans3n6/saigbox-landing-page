@@ -22,7 +22,7 @@ export function Hero() {
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5 flex items-center">
               <span className="sr-only">SAIGBOX</span>
-              <span style={{fontSize: '28px', color: '#22c55e', textShadow: '-1px -1px 0 rgba(0, 0, 0, 0.3), 1px -1px 0 rgba(0, 0, 0, 0.3), -1px 1px 0 rgba(0, 0, 0, 0.3), 1px 1px 0 rgba(0, 0, 0, 0.3)'}}>🍃</span>
+              <span style={{fontSize: '28px', color: '#7fc97f', textShadow: '-1px -1px 0 rgba(0, 0, 0, 0.3), 1px -1px 0 rgba(0, 0, 0, 0.3), -1px 1px 0 rgba(0, 0, 0, 0.3), 1px 1px 0 rgba(0, 0, 0, 0.3)'}}>🍃</span>
               <span className="ml-3 text-xl font-bold text-white">SAIGBOX</span>
             </a>
           </div>
@@ -44,7 +44,7 @@ export function Hero() {
             ))}
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <a href="#" className="text-sm font-semibold text-white bg-saig-green-600 hover:bg-saig-green-500 px-4 py-2 rounded-lg transition-colors">
+            <a href="#" className="text-sm font-semibold text-white bg-saig-green-400 hover:bg-saig-green-500 px-4 py-2 rounded-lg transition-colors">
               Get Started <span aria-hidden="true">&rarr;</span>
             </a>
           </div>
@@ -55,7 +55,7 @@ export function Hero() {
             <div className="flex items-center justify-between">
               <a href="#" className="-m-1.5 p-1.5 flex items-center">
                 <span className="sr-only">SAIGBOX</span>
-                <span style={{fontSize: '28px', color: '#22c55e', textShadow: '-1px -1px 0 rgba(0, 0, 0, 0.3), 1px -1px 0 rgba(0, 0, 0, 0.3), -1px 1px 0 rgba(0, 0, 0, 0.3), 1px 1px 0 rgba(0, 0, 0, 0.3)'}}>🍃</span>
+                <span style={{fontSize: '28px', color: '#7fc97f', textShadow: '-1px -1px 0 rgba(0, 0, 0, 0.3), 1px -1px 0 rgba(0, 0, 0, 0.3), -1px 1px 0 rgba(0, 0, 0, 0.3), 1px 1px 0 rgba(0, 0, 0, 0.3)'}}>🍃</span>
                 <span className="ml-3 text-xl font-bold text-white">SAIGBOX</span>
               </a>
               <button
@@ -83,7 +83,7 @@ export function Hero() {
                 <div className="py-6">
                   <a
                     href="#"
-                    className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold text-white bg-saig-green-600 hover:bg-saig-green-500 text-center"
+                    className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold text-white bg-saig-green-400 hover:bg-saig-green-500 text-center"
                   >
                     Get Started
                   </a>
@@ -98,7 +98,7 @@ export function Hero() {
         <div className="absolute inset-0 -z-10 overflow-hidden">
           <div className="absolute left-[max(-7rem,calc(50%-52rem))] top-1/2 -z-10 -translate-y-1/2 transform-gpu blur-2xl" aria-hidden="true">
             <div
-              className="aspect-[577/310] w-[36.0625rem] bg-gradient-to-r from-saig-green-600 to-saig-green-400 opacity-20"
+              className="aspect-[577/310] w-[36.0625rem] bg-gradient-to-r from-saig-green-400 to-saig-green-300 opacity-20"
               style={{
                 clipPath:
                   'polygon(74.8% 41.9%, 97.2% 73.2%, 100% 34.9%, 92.5% 0.4%, 87.5% 0%, 75% 28.6%, 58.5% 54.6%, 50.1% 56.8%, 46.9% 44%, 48.3% 17.4%, 24.7% 53.9%, 0% 27.9%, 11.9% 74.2%, 24.9% 54.1%, 68.6% 100%, 74.8% 41.9%)',
@@ -107,7 +107,7 @@ export function Hero() {
           </div>
           <div className="absolute left-[max(45rem,calc(50%+8rem))] top-1/2 -z-10 -translate-y-1/2 transform-gpu blur-2xl" aria-hidden="true">
             <div
-              className="aspect-[577/310] w-[36.0625rem] bg-gradient-to-r from-saig-green-600 to-saig-green-400 opacity-15"
+              className="aspect-[577/310] w-[36.0625rem] bg-gradient-to-r from-saig-green-400 to-saig-green-300 opacity-15"
               style={{
                 clipPath:
                   'polygon(74.8% 41.9%, 97.2% 73.2%, 100% 34.9%, 92.5% 0.4%, 87.5% 0%, 75% 28.6%, 58.5% 54.6%, 50.1% 56.8%, 46.9% 44%, 48.3% 17.4%, 24.7% 53.9%, 0% 27.9%, 11.9% 74.2%, 24.9% 54.1%, 68.6% 100%, 74.8% 41.9%)',
@@ -133,7 +133,7 @@ export function Hero() {
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a
                   href="#"
-                  className="rounded-lg bg-saig-green-600 px-8 py-3.5 text-sm font-semibold text-white shadow-sm hover:bg-saig-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-saig-green-600 transition-colors"
+                  className="rounded-lg bg-saig-green-400 px-8 py-3.5 text-sm font-semibold text-white shadow-sm hover:bg-saig-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-saig-green-400 transition-colors"
                 >
                   Get SAIGBOX Now
                 </a>
@@ -145,7 +145,7 @@ export function Hero() {
             
             {/* Video/Image Placeholder */}
             <div className="mt-16 flow-root sm:mt-24">
-              <div className="-m-2 rounded-xl bg-saig-dark-800/50 p-2 ring-1 ring-inset ring-saig-green-600/20 lg:-m-4 lg:rounded-2xl lg:p-4">
+              <div className="-m-2 rounded-xl bg-saig-dark-800/50 p-2 ring-1 ring-inset ring-saig-green-400/20 lg:-m-4 lg:rounded-2xl lg:p-4">
                 <img
                   src="/Screenshot-SAIG.png"
                   alt="SAIGBOX Dashboard Preview"
