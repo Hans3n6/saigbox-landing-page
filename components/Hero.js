@@ -4,6 +4,7 @@ import { useState } from 'react'
 import { Dialog, DialogPanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Image from 'next/image'
+import { LeafIcon } from './LeafIcon'
 
 const navigation = [
   { name: 'Benefits', href: '#benefits' },
@@ -22,7 +23,7 @@ export function Hero() {
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5 flex items-center">
               <span className="sr-only">SAIGBOX</span>
-              <span style={{fontSize: '28px', color: '#7fc97f', textShadow: '-1px -1px 0 rgba(0, 0, 0, 0.3), 1px -1px 0 rgba(0, 0, 0, 0.3), -1px 1px 0 rgba(0, 0, 0, 0.3), 1px 1px 0 rgba(0, 0, 0, 0.3)'}}>🍃</span>
+              <LeafIcon />
               <span className="ml-3 text-xl font-bold text-white">SAIGBOX</span>
             </a>
           </div>
@@ -55,7 +56,7 @@ export function Hero() {
             <div className="flex items-center justify-between">
               <a href="#" className="-m-1.5 p-1.5 flex items-center">
                 <span className="sr-only">SAIGBOX</span>
-                <span style={{fontSize: '28px', color: '#7fc97f', textShadow: '-1px -1px 0 rgba(0, 0, 0, 0.3), 1px -1px 0 rgba(0, 0, 0, 0.3), -1px 1px 0 rgba(0, 0, 0, 0.3), 1px 1px 0 rgba(0, 0, 0, 0.3)'}}>🍃</span>
+                <LeafIcon />
                 <span className="ml-3 text-xl font-bold text-white">SAIGBOX</span>
               </a>
               <button
