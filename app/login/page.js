@@ -10,7 +10,7 @@ export default function LoginPage() {
   const [successMessage, setSuccessMessage] = useState(null);
   
   // Production backend API URL
-  const API_BASE_URL = 'http://3.233.250.55:8000';
+  const API_BASE_URL = 'https://api.saigbox.com';
   // Dashboard URL after successful auth
   const DASHBOARD_URL = 'https://dashboard.saigbox.com';
   
