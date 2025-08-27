@@ -20,9 +20,18 @@ export default function LoginPage() {
     const token = urlParams.get('token');
     const authError = urlParams.get('error');
     
+    // Debug logging
+    console.log('Login page loaded');
+    console.log('URL params:', window.location.search);
+    console.log('Token from URL:', token);
+    
     if (token) {
+      console.log('Token found, storing and redirecting to:', DASHBOARD_URL);
       localStorage.setItem('access_token', token);
-      window.location.href = DASHBOARD_URL;
+      // Add a small delay to ensure localStorage is set
+      setTimeout(() => {
+        window.location.href = DASHBOARD_URL;
+      }, 100);
       return;
     }
     
