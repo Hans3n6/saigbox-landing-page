@@ -45,7 +45,7 @@ export function Hero() {
             ))}
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <a href="#" className="text-sm font-semibold text-white bg-saig-green-400 hover:bg-saig-green-500 px-4 py-2 rounded-lg transition-colors">
+            <a href="https://www.saigbox.com/login" className="text-sm font-semibold text-white bg-saig-green-400 hover:bg-saig-green-500 px-4 py-2 rounded-lg transition-colors">
               Get Started <span aria-hidden="true">&rarr;</span>
             </a>
           </div>
@@ -83,7 +83,7 @@ export function Hero() {
                 </div>
                 <div className="py-6">
                   <a
-                    href="#"
+                    href="https://www.saigbox.com/login"
                     className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold text-white bg-saig-green-400 hover:bg-saig-green-500 text-center"
                   >
                     Get Started
@@ -133,7 +133,7 @@ export function Hero() {
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a
-                  href="#"
+                  href="https://www.saigbox.com/login"
                   className="rounded-lg bg-saig-green-400 px-8 py-3.5 text-sm font-semibold text-white shadow-sm hover:bg-saig-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-saig-green-400 transition-colors"
                 >
                   Get SAIGBOX Now

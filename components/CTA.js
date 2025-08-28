@@ -11,7 +11,7 @@ export function CTA() {
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
             <a
-              href="#"
+              href="https://www.saigbox.com/login"
               className="rounded-lg bg-white px-8 py-3.5 text-base font-semibold text-saig-green-400 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white transition-colors"
             >
               Get SAIGBOX Now
